@@ -1,0 +1,176 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <span>💖</span>
+        <span>💕</span>
+        <span>💗</span>
+        <span>💓</span>
+        <span>💖</span>
+        <span>💗</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <p class="small-title">A SPECIAL DAY FOR A SPECIAL PERSON ✨</p>
+
+        <h1>Happy Birthday bachha 🥰</h1>
+
+        <h2 id="name">My Favorite Person 💕</h2>
+
+        <p class="intro">
+            Today is all about celebrating YOU!
+            May your day be filled with happiness,
+            laughter and beautiful memories.
+        </p>
+
+        <button onclick="startCelebration()">
+            🎉 Start Celebration
+        </button>
+
+    </section>
+
+
+    <!-- Countdown -->
+    <section class="section">
+
+        <h2>🎂 Birthday Countdown</h2>
+
+        <div class="countdown">
+
+            <div class="time-box">
+                <span id="days">00</span>
+                <small>Days</small>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">02</span>
+                <small>Hours</small>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">50</span>
+                <small>Minutes</small>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">45</span>
+                <small>Seconds</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    Photo Section
+    <!-- <section class="section">
+
+        <h2>📸 A Beautiful Memory</h2>
+
+        <div class="photo-card">
+
+            <img src="birthday.jpg" alt="Birthday Photo">
+
+            <p>
+                Every picture has a story,
+                and this one is one of my favorites. 💕
+            </p>
+
+        </div>
+
+    </section> -->
+
+
+    <!-- Surprise Gift -->
+    <section class="section">
+
+        <h2>🎁 I Have a Surprise For You</h2>
+
+        <div class="gift-container">
+
+            <div id="gift" class="gift" onclick="openGift()">
+                🎁
+            </div>
+
+            <p id="gift-text">
+                Click the gift to open your surprise!
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Birthday Letter -->
+    <section class="section">
+
+        <h2>💌 A Little Birthday Letter</h2>
+
+        <div class="letter">
+
+            <p>
+                happiest Birthday bachha🥰,
+            </p>
+
+            <p>
+                its your second birthday with me . you know, you are  very special for me. it all come in my mind today date 01/10/2026 time 10:50 pm abhi tera call aaya aur mai iss letter ko likh rhi hu mai soochi kuchh nhi toh iss baar bacha ko ek website hi bana deti hu.  
+            </p>
+
+            <p>
+                Keep smiling, keep dreaming and keep being
+                the wonderful person you are.
+            </p>
+
+            <p>
+                May this new year of your life bring you
+                everything you wish for. ✨
+            </p>
+
+            <p class="signature">
+                With lots of love 💖
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Final Message -->
+    <section class="final">
+
+        <h1>🎂 HAPPY BIRTHDAY! 🎂</h1>
+
+        <p>
+            May your life always be filled with
+            love, laughter and happiness. 💕
+        </p>
+
+        <button onclick="showConfetti()">
+            🎉 Celebrate Again
+        </button>
+
+    </section>
+
+
+    <!-- Confetti -->
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
